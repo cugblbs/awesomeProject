@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66967f57-bad5-4cd6-b4bc-be5625dbd5d8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/chanel.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goroutines.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buffer_channels.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rang-and-close.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/select.go" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,40 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="range.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/range.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function-closures.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/function-closures.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding>
-                <element signature="e#14#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="exercise-fabonacci-closures.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exercise-fabonacci-closures.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,12 +99,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chanel.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chanel.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chanel.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
               <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buffer_channels.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buffer_channels.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rang-and-close.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rang-and-close.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/select.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="e#14#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -187,6 +188,9 @@
         <option value="$PROJECT_DIR$/gorotines.go" />
         <option value="$PROJECT_DIR$/goroutines.go" />
         <option value="$PROJECT_DIR$/chanel.go" />
+        <option value="$PROJECT_DIR$/buffer_channels.go" />
+        <option value="$PROJECT_DIR$/rang-and-close.go" />
+        <option value="$PROJECT_DIR$/select.go" />
       </list>
     </option>
   </component>
@@ -256,25 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run chanel.go">
-    <configuration default="false" name="go run function-closures.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/function-closures.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run exercise-fabonacci-closures.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/exercise-fabonacci-closures.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run exercise-stinger.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/exercise-stinger.go" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Single File.go run select.go">
     <configuration default="false" name="go run goroutines.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -285,6 +271,24 @@
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/chanel.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run buffer_channels.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/buffer_channels.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run rang-and-close.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/rang-and-close.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run select.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/select.go" />
       <method />
     </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -336,19 +340,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run function-closures.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run exercise-fabonacci-closures.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run exercise-stinger.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run goroutines.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run chanel.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Single File.go run goroutines.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run chanel.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run buffer_channels.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run rang-and-close.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run chanel.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run goroutines.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run exercise-stinger.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run exercise-fabonacci-closures.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run function-closures.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run select.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run rang-and-close.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run buffer_channels.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Single File.go run chanel.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run goroutines.go" />
       </list>
     </recent_temporary>
   </component>
@@ -677,6 +681,34 @@
         <state relative-caret-position="110">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buffer_channels.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rang-and-close.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/select.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
